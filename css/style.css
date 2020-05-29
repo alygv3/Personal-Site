@@ -1,0 +1,121 @@
+.backgroundimage { 
+    background: url(../images/florence.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#logo {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* alyssa vitolo on homepage */
+h1 {
+    font-size: 5em;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+#menuicon {
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#menuicon:hover {
+    background-color: white;
+    color: #6386b0;
+    transition-duration: 1s;
+}
+
+.sidenav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6)
+}
+
+#menuclose {
+    font-size: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+#menuclose:hover {
+    color: grey;
+}
+
+.sidenav li>a:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.openmenu {
+    margin-top: 200px;
+}
+
+/* categories when menu is open */
+.menuwords {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+/* description under menu options */
+.menudescription {
+    font-weight: 300;
+    color: grey;
+    font-size: 1.2em;
+}
+
+.hovermenu1:hover, .hovermenu2:hover, .hovermenu3:hover, .hovermenu4:hover {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .menuwords {
+      font-size: .5em;
+    }
+    .row .col.s3 {
+        width: 20%;
+    }
+  }
+
+#resumepic {
+    height: 600px;
+    width: auto;
+}
+
+h4 {
+    color: white;
+}
+
+.buttontextsize {
+    font-size: 10px;
+}
+
+.contactbackground {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: #a5a5a5;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #a5a5a5;
+    box-shadow: 0 1px 0 0 #a5a5a5;
+}
